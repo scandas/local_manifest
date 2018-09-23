@@ -2,7 +2,7 @@
     <!-- CM replacements -->
     <!-- golfu -->
     <project path="device/htc/golfu" name="scandas/android_device_htc_golfu" revision="cm-11.0" />
-    <project path="kernel/htc/golfu" name="scandas/android_kernel_htc_pico" revision="cm-12.1" />
+    <project path="kernel/htc/golfu" name="scandas/android_kernel_htc_golfu" revision="cm-11.0" />
     <project path="vendor/htc/golfu" name="scandas/android_vendor_htc_golfu" revision="cm-11.0" />
 
     <!-- wifi -->
@@ -18,7 +18,7 @@
     <!-- <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" revision="cm-11.0" /> -->
 
     <!-- removing not needed projects -->
-    <remove-project name="LineageOS/android_device_common" />
+    <!-- <remove-project name="LineageOS/android_device_common" />
     <remove-project name="LineageOS/android_device_generic_armv7-a-neon" />
     <remove-project name="LineageOS/android_device_generic_common" />
     <remove-project name="LineageOS/android_device_generic_goldfish" />
@@ -47,6 +47,6 @@
     <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" />
-    <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
+    <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" /> -->
 
 </manifest>
